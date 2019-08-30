@@ -1,0 +1,15 @@
+Option Explicit On
+Option Strict On
+Option Compare Binary
+
+Imports System
+
+Module Program
+  Sub Main()
+    Dim userinput as String
+      'Console.CLS()'
+      Console.WriteLine("Hello, what is your name?")
+      userinput = Console.ReadLine()
+      Console.WriteLine("Nice to meet you " & userinput & ".")
+  End Sub
+End Module
